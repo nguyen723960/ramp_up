@@ -7,7 +7,7 @@ Usage:
 
 Contoh:
     python3 ramp_up.py https://example.com 50
-    python3 haqloader.py https://example.com 50 --method POST --body '{"user":"test"}' --content-type json
+    python3 ramp_up.py https://example.com 50 --method POST --body '{"user":"test"}' --content-type json
     python3 ramp_up.py https://example.com 50 --auth-basic user:pass
     python3 ramp_up.py https://example.com 50 --auth-bearer TOKEN123
     python3 ramp_up.py https://example.com 50 --cookie "session=abc; token=xyz"
